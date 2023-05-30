@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0%;
+    display: flex;
+
+
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+    height: 100vh;
+
+    
+    
+    row-gap: 30px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-size:15px ;
+    background-color: whitesmoke;
+    padding-bottom: 30px;
+    
+}
+.head{
+    margin-top: 40px;
+ width: 35%;
+  
+ text-align: center;
+}
+h1,h2,p{
+    margin: 0;
+}
+h1{
+    color: hsl(234, 12%, 34%);
+    font-weight: 400;
+}
+h1{
+    font-weight: 200;
+}
+#tt{
+    font-weight: 600;
+}
+p{
+    font-size: 12px;
+    
+   color:hsl(229, 6%, 66%);
+   opacity: 90%;
+}
+.big{
+    
+    gap:22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+    
+    
+
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 22px;
+    
+}
+.item{
+    
+    height: 180px;
+    width: 270px;
+
+ background-color: white;
+ border-top:3px solid;
+ box-sizing: border-box;
+ padding: 30px;
+ padding-left: 20px;
+ padding-top:15px;
+ border-radius: 5px;
+ display: flex;
+ flex-direction: column;
+ padding-bottom: 23px !important;
+ justify-content: space-between;
+ 
+}
+.item p{
+    font-size: 10px;
+}
+.item p,.item h5{
+    margin: 5px;
+}
+.ins{
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+img{
+    width: 45px;
+    height: 45px;
+}
+h5{
+    color: hsl(234, 12%, 34%)   ;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.item1{
+    border-color:   hsl(180, 62%, 55%);
+
+}
+.item2{
+    border-color: hsl(0, 78%, 62%);
+}
+.item3{
+    border-color: hsl(34, 97%, 64%);
+}
+.item4{
+    border-color: hsl(212, 86%, 64%);
+}
+@media screen and (max-width:1060px) {
+    .big{
+        
+        width: 100%;
+
+    }
+    .head{
+        text-align: center;
+        width: 100%;
+        height: 150px;
+        margin-top: 0;
+        
+    }
+    body{
+        padding-top: 65px;
+        padding-bottom: 65px;
+        height: fit-content;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    
+}
+@media  screen and (max-width:430px) {
+    h1{
+        font-size: 18px;
+       
+
+    }
+    .head{
+        gap:15px
+    }
+
+    .head p{
+        margin-top: 10px;
+        font-size: 11px;
+        
+    }
+    .head{
+        width: 70%;
+    }
+    
+    
+}
